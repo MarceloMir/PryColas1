@@ -31,7 +31,7 @@ public class Ventana {
                     if (anio > 2025) {
                         throw new Exception("El año no puede ser mayor a 2025.");
                     }
-                    
+
                     listaAutos.encolar(new Auto(modelo, anio));
                     txtListarAutos.setText(listaAutos.listarAutos());
                     lblMensaje.setText("Auto agregado correctamente");
